@@ -130,7 +130,9 @@ header h2 {
   --progress: 10%;
 
   width: 100%;
-  -webkit-appearance: none;
+  -webkit-appearance: none; /* Chrome, Safari, Edge (Blink/WebKit) */
+  -moz-appearance: none; /* Firefox */
+  appearance: none; /* Chuẩn hiện đại */
   height: 10px;
   border-radius: 5px;
   background: linear-gradient(
