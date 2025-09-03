@@ -1,9 +1,3 @@
-/**
- * Music Player Application
- * Author: Team Player
- * Description: A simple, clean, and extensible music player
- */
-
 const player = {
   // =====================
   // Constants
